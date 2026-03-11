@@ -1,82 +1,42 @@
-Random Forest vs Linear Regression for Robotic Gripping Force Prediction
-Project Overview
+# Random Forest vs Linear Regression for Robotic Gripping Force Prediction
 
-This project focuses on predicting the optimal gripping force for robotic manipulators using machine learning algorithms. Accurate gripping force is important to prevent objects from slipping or being damaged. The project compares two machine learning models, Random Forest and Linear Regression, to determine which algorithm predicts gripping force more accurately.
+## Project Overview
+This project focuses on predicting the optimal gripping force for robotic manipulators using machine learning techniques. Accurate gripping force is important to prevent objects from slipping or being damaged. The project compares two machine learning models, Random Forest and Linear Regression, to determine which algorithm predicts gripping force more accurately.
 
-Objectives
+## Objectives
+- Predict the required gripping force for robotic manipulators
+- Compare the performance of Random Forest and Linear Regression algorithms
+- Improve grip accuracy in robotic systems
 
-Predict the required gripping force for robotic manipulators
+## Technologies Used
+- Python
+- Machine Learning
+- Random Forest
+- Linear Regression
+- Pandas
+- NumPy
+- Scikit-learn
 
-Compare the performance of Random Forest and Linear Regression algorithms
+## Methodology
+1. Data collection related to robotic gripping force
+2. Data preprocessing and feature selection
+3. Training models using Linear Regression and Random Forest
+4. Evaluating model performance
+5. Comparing results to identify the best algorithm
 
-Improve grip accuracy and robotic manipulation efficiency
+## Results
+The models were evaluated to determine which algorithm predicts gripping force more accurately. Random Forest generally provides better prediction performance due to its ability to capture complex relationships in data.
 
-Technologies Used
+## Applications
+- Industrial robotic arms
+- Automated manufacturing
+- Object handling systems
+- Robotics research
 
-Python
+## Project Presentation
+The complete explanation of this project is available in the presentation file included in this repository.
 
-Machine Learning Algorithms
-
-Random Forest
-
-Linear Regression
-
-NumPy
-
-Pandas
-
-Scikit-learn
-
-Methodology
-
-Collect and prepare dataset related to robotic gripping force
-
-Perform data preprocessing and feature selection
-
-Train models using Linear Regression and Random Forest
-
-Evaluate model performance using prediction accuracy
-
-Compare results to identify the better algorithm for gripping force prediction
-
-Machine Learning Models
-Linear Regression
-
-Linear Regression predicts gripping force based on a linear relationship between input variables and the output.
-
-Random Forest
-
-Random Forest is an ensemble learning method that builds multiple decision trees and combines their predictions for better accuracy.
-
-Results
-
-The performance of both models is analyzed to determine which algorithm provides better prediction accuracy for robotic gripping force. The comparison helps identify the most effective model for robotic gripping applications.
-
-Applications
-
-Industrial robotic arms
-
-Automated manufacturing systems
-
-Object handling and manipulation
-
-Smart robotic systems
-
-Future Improvements
-
-Use larger datasets for better model performance
-
-Implement deep learning models for improved predictions
-
-Integrate the system into real-time robotic control systems
-
-Project Presentation
-
-The detailed explanation of this project can be found in the presentation file included in this repository.
-
-Author
-
-Shaik Fathima
-B.Tech – Artificial Intelligence and Machine Learning
+## Author
+Shaik Fathima  
+B.Tech Artificial Intelligence and Machine Learning  
 Saveetha School of Engineering
-Saveetha Institute of Medical and Technical Sciences
